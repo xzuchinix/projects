@@ -34,6 +34,7 @@ public class UserDTO implements Serializable {
     }
     
     public boolean isValid() {
+        // this is the validator for the user object
         if (username == null || password == null)
             return false;
         return (username.matches(User.USERNAME_PATTERN) &&

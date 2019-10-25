@@ -23,6 +23,7 @@ public class ListDao implements DataService {
 
     @Override
     public User findUserByUserDTO(UserDTO bean) {
+        // this is the authenticator for the user object
         if (!bean.isValid())
             throw new IllegalArgumentException("Bean does not validate");
         User user = this.findUserByUsername(bean.getUsername());
