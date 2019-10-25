@@ -22,17 +22,17 @@
                 <p>
                     <input class="w3-input" name="username" type="text" id="user"
                            style="width:90%" required/>
-                    <label for="username">Username:</label>
+                    <label>Username:</label>
                 </p>
                 <p>
                     <input class="w3-input" name="password1" type="text" 
                            id="password" style="width:90%" required/>
-                    <label for="password1">Password:</label>
+                    <label>Password:</label>
                 </p>
                 <p>
                     <input class="w3-input" name="password2" type="text" 
                            id="password" style="width:90%" required/>
-                    <label for="password2">Password Again:</label>
+                    <label>Password Again:</label>
                 </p>
                 <p>
                     <button class="w3-button w3-section w3-ripple"
