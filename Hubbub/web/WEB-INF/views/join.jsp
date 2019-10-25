@@ -3,9 +3,10 @@
 <html>
     <head>
         <title>Hubbub&trade; &raquo; Sign-up</title>
+        <%@include file="/WEB-INF/jspf/w3csshead.jspf"%>
     </head>
     <body>
-        <div class ="w3-bar" style="background-color:#92C4BE">
+        <div id="navbar" class ="w3-bar" style="background-color:#92C4BE">
             <a class="w3-bar-item w3-button" href="main?action=timeline">Home</a>
             <a class="w4-car-item w3-button" href="main?action=login">I'm already a Bub&trade;</a>
         </div>
